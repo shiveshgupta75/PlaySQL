@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SQL Playground</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Frontend SQL Playground</h1>
+  <!-- Textarea for user to input SQL query -->
+  <textarea id="sqlInput" placeholder="Write your SQL query here..."></textarea>
+  <!-- Button to run the SQL query -->
+  <button id="runBtn">Run Query</button>
+  <!-- Div to show error messages -->
+  <div id="error" class="error"></div>
+  <!-- Div to show query results -->
+  <div id="results"></div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
